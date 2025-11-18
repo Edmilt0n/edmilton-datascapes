@@ -72,10 +72,10 @@ const Hero = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-accent/30 to-primary/30 rounded-3xl blur-3xl"></div>
               
               {/* Decorative frame */}
-              <div className="absolute inset-4 rounded-3xl border-4 border-accent/20 shadow-2xl pointer-events-none z-10"></div>
+              <div className="absolute inset-4 rounded-3xl border-4 border-accent/20 shadow-2xl pointer-events-none z-0"></div>
               
               {/* Main image container - no overflow hidden */}
-              <div className="relative rounded-3xl">
+              <div className="relative rounded-3xl z-10">
                 <img src={profilePhoto} alt="Edmilton Souza" className="w-full h-auto object-cover scale-110" />
               </div>
             </div>
