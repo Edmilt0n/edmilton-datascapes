@@ -28,7 +28,7 @@ const Hero = () => {
             </div>
             
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold">
-              <span className="block text-foreground">Edmilton Souza</span>
+              <span className="block text-white">Edmilton Souza</span>
               
             </h1>
 
