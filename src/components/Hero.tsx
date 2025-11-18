@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Linkedin, Github, Mail, Download, ChevronDown } from "lucide-react";
 import profilePhoto from "@/assets/profile-photo.png";
+import curriculum from "@/assets/Edmilton_Souza_-_Data_Science.pdf";
 const Hero = () => {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -45,21 +46,23 @@ const Hero = () => {
               <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg hover:shadow-accent/50 transition-all duration-300" onClick={() => scrollToSection('projects')}>
                 Ver meus projetos
               </Button>
-              <Button size="lg" variant="outline" className="border-muted-foreground/30 hover:bg-muted/50 hover:border-accent transition-all duration-300">
-                <Download className="mr-2 h-5 w-5" />
-                Baixar currículo
+              <Button size="lg" variant="outline" className="border-muted-foreground/30 hover:bg-muted/50 hover:border-accent transition-all duration-300" asChild>
+                <a href={curriculum} download="Edmilton_Souza_-_Data_Science.pdf">
+                  <Download className="mr-2 h-5 w-5" />
+                  Baixar currículo
+                </a>
               </Button>
             </div>
 
             {/* Social Links */}
             <div className="flex gap-4 justify-center lg:justify-start">
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-card border border-border hover:border-accent hover:bg-accent/10 transition-all duration-300 group">
+              <a href="https://www.linkedin.com/in/edmilton-souza/" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-card border border-border hover:border-accent hover:bg-accent/10 transition-all duration-300 group">
                 <Linkedin className="h-5 w-5 text-muted-foreground group-hover:text-accent transition-colors" />
               </a>
               <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-card border border-border hover:border-accent hover:bg-accent/10 transition-all duration-300 group">
                 <Github className="h-5 w-5 text-muted-foreground group-hover:text-accent transition-colors" />
               </a>
-              <a href="mailto:contato@example.com" className="p-3 rounded-full bg-card border border-border hover:border-accent hover:bg-accent/10 transition-all duration-300 group">
+              <a href="mailto:edmiltonsouzamsc@gmail.com" className="p-3 rounded-full bg-card border border-border hover:border-accent hover:bg-accent/10 transition-all duration-300 group">
                 <Mail className="h-5 w-5 text-muted-foreground group-hover:text-accent transition-colors" />
               </a>
             </div>

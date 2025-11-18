@@ -24,7 +24,7 @@ const Contact = () => {
 
           {/* Contact Cards */}
           <div className="grid md:grid-cols-2 gap-6 mb-12 animate-fade-in-up">
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="group p-8 rounded-2xl bg-card border border-border hover:border-accent transition-all duration-300 hover:shadow-2xl">
+            <a href="https://www.linkedin.com/in/edmilton-souza/" target="_blank" rel="noopener noreferrer" className="group p-8 rounded-2xl bg-card border border-border hover:border-accent transition-all duration-300 hover:shadow-2xl">
               <div className="flex flex-col items-center text-center space-y-4">
                 <div className="p-4 rounded-full bg-gradient-to-br from-primary to-purple group-hover:scale-110 transition-transform duration-300">
                   <Linkedin className="h-8 w-8 text-white" />
@@ -37,7 +37,7 @@ const Contact = () => {
               </div>
             </a>
 
-            <a href="mailto:contato@example.com" className="group p-8 rounded-2xl bg-card border border-border hover:border-accent transition-all duration-300 hover:shadow-2xl">
+            <a href="mailto:edmiltonsouzamsc@gmail.com" className="group p-8 rounded-2xl bg-card border border-border hover:border-accent hover:shadow-2xl transition-all duration-300">
               <div className="flex flex-col items-center text-center space-y-4">
                 <div className="p-4 rounded-full bg-gradient-to-br from-accent to-primary group-hover:scale-110 transition-transform duration-300">
                   <Mail className="h-8 w-8 text-white" />
@@ -56,14 +56,14 @@ const Contact = () => {
           animationDelay: "200ms"
         }}>
             <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground shadow-lg hover:shadow-accent/50 transition-all duration-300" asChild>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/edmilton-souza/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="mr-2 h-5 w-5" />
                 Falar no LinkedIn
               </a>
             </Button>
             
             <Button size="lg" variant="outline" className="border-accent/30 hover:bg-accent/10 hover:border-accent transition-all duration-300" asChild>
-              <a href="mailto:contato@example.com">
+              <a href="mailto:edmiltonsouzamsc@gmail.com">
                 <Mail className="mr-2 h-5 w-5" />
                 Enviar E-mail
               </a>
