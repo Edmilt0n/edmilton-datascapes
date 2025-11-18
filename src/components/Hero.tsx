@@ -76,7 +76,7 @@ const Hero = () => {
               
               {/* Main image container - no overflow hidden */}
               <div className="relative rounded-3xl z-10">
-                <img src={profilePhoto} alt="Edmilton Souza" className="w-full h-auto object-cover scale-110" />
+                <img src={profilePhoto} alt="Edmilton Souza" className="w-full h-auto object-contain" />
               </div>
             </div>
           </div>
