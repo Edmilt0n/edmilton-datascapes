@@ -46,7 +46,7 @@ const Skills = () => {
       skills: [
         "Comunicação",
         "Liderança",
-        "Visão Sistêmica",
+        "Melhoria Contínua",
         "Resolução de Problemas",
         "Gestão de Projetos",
         "Trabalho em Equipe",
@@ -70,7 +70,7 @@ const Skills = () => {
 
         <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {skillCategories.map((category, categoryIndex) => (
-            <div 
+            <div
               key={categoryIndex}
               className="p-8 rounded-2xl bg-card border border-border hover:border-accent transition-all duration-300 animate-fade-in-up"
               style={{ animationDelay: `${categoryIndex * 100}ms` }}
@@ -79,7 +79,7 @@ const Skills = () => {
                 <span className="h-2 w-2 rounded-full bg-accent animate-glow-pulse"></span>
                 {category.title}
               </h3>
-              
+
               <div className="flex flex-wrap gap-3">
                 {category.skills.map((skill, skillIndex) => (
                   <Badge
