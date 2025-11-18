@@ -1,8 +1,6 @@
 import { Music2, Users, Calendar } from "lucide-react";
-
 const Music = () => {
-  return (
-    <section className="py-24 bg-background">
+  return <section className="py-24 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-5xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -54,17 +52,17 @@ const Music = () => {
                     </div>
                     
                     <div>
-                      <h3 className="text-2xl font-bold mb-2">Ministério de Louvor</h3>
-                      <p className="text-muted-foreground">Liderança, organização e gestão de pessoas</p>
+                      <h3 className="text-2xl font-bold mb-2 text-cyan-500">Ministério de Louvor</h3>
+                      <p className="text-slate-50">Liderança, organização e gestão de pessoas</p>
                     </div>
 
                     <div className="grid grid-cols-2 gap-6 w-full pt-6 border-t border-border">
                       <div>
-                        <div className="text-3xl font-bold text-gradient mb-1">5+</div>
-                        <div className="text-xs text-muted-foreground">Anos de Liderança</div>
+                        <div className="text-3xl font-bold text-gradient mb-1">2+</div>
+                        <div className="text-xs text-muted-foreground bg-[#1b253a]">Anos de Liderança</div>
                       </div>
                       <div>
-                        <div className="text-3xl font-bold text-gradient mb-1">15+</div>
+                        <div className="text-3xl font-bold text-gradient mb-1">60+</div>
                         <div className="text-xs text-muted-foreground">Membros na Equipe</div>
                       </div>
                     </div>
@@ -75,8 +73,6 @@ const Music = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Music;
