@@ -36,7 +36,7 @@ const Hero = () => {
               Cientista de Dados · Engenheiro de Dados · IA & Arquitetura
             </p>
 
-            <p className="text-lg text-gray-mid max-w-2xl">
+            <p className="text-lg text-white max-w-2xl">
               Desenvolvo soluções de dados ponta a ponta — da ingestão ao insight — unindo engenharia, machine learning e visualização para acelerar decisões e impulsionar resultados reais.
             </p>
 
