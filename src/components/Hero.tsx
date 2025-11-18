@@ -32,7 +32,7 @@ const Hero = () => {
               
             </h1>
 
-            <p className="text-xl text-muted-foreground leading-relaxed">
+            <p className="text-xl text-accent leading-relaxed">
               Cientista de Dados · Engenheiro de Dados · IA & Arquitetura
             </p>
 
