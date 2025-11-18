@@ -1,6 +1,5 @@
 const About = () => {
-  return (
-    <section id="about" className="py-24 bg-background">
+  return <section id="about" className="py-24 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12 animate-fade-in">
@@ -16,11 +15,11 @@ const About = () => {
             </p>
 
             <p>
-              Trabalho com dados de qualquer origem — sistemas internos, bancos relacionais, serviços em nuvem, APIs, planilhas, eventos, logs ou dados não estruturados. O foco é sempre o mesmo: transformar informação bruta em algo <span className="text-accent font-semibold">útil, confiável e acionável</span>.
+              Trabalho com dados de qualquer origem sistemas internos, bancos relacionais, serviços em nuvem, APIs, planilhas, eventos, logs ou dados não estruturados. O foco é sempre o mesmo: transformar informação bruta em algo útil, confiável e acionável. <span className="text-accent font-semibold">útil, confiável e acionável</span>.
             </p>
 
             <p>
-              Minha abordagem é <span className="text-foreground font-semibold">híbrida e multidisciplinar</span>. Entendo tanto a parte técnica (pipelines, arquitetura, engenharia, modelagem estatística) quanto a parte humana (como comunicar resultados, alinhar expectativas, facilitar decisões e antecipar necessidades).
+              Minha abordagem é híbrida e multidisciplinar. Entendo tanto a parte técnica (pipelines, arquitetura, engenharia, modelagem estatística) quanto a parte de negócio (como comunicar resultados, alinhar expectativas, facilitar decisões e antecipar necessidades). <span className="text-foreground font-semibold">híbrida e multidisciplinar</span>. Entendo tanto a parte técnica (pipelines, arquitetura, engenharia, modelagem estatística) quanto a parte humana (como comunicar resultados, alinhar expectativas, facilitar decisões e antecipar necessidades).
             </p>
 
             <p>
@@ -31,7 +30,7 @@ const About = () => {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-3 gap-8 mt-16">
             <div className="text-center p-6 rounded-2xl bg-card border border-border hover:border-accent transition-all duration-300">
-              <div className="text-4xl font-bold text-gradient mb-2">5+</div>
+              <div className="text-4xl font-bold text-gradient mb-2">3+</div>
               <div className="text-sm text-muted-foreground">Anos de Experiência</div>
             </div>
             <div className="text-center p-6 rounded-2xl bg-card border border-border hover:border-accent transition-all duration-300">
@@ -45,8 +44,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
