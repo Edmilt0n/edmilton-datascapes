@@ -59,7 +59,7 @@ const Hero = () => {
               <a href="https://www.linkedin.com/in/edmilton-souza/" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-card border border-border hover:border-accent hover:bg-accent/10 transition-all duration-300 group">
                 <Linkedin className="h-5 w-5 text-muted-foreground group-hover:text-accent transition-colors" />
               </a>
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-card border border-border hover:border-accent hover:bg-accent/10 transition-all duration-300 group">
+              <a href="https://github.com/Edmilt0n" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-card border border-border hover:border-accent hover:bg-accent/10 transition-all duration-300 group">
                 <Github className="h-5 w-5 text-muted-foreground group-hover:text-accent transition-colors" />
               </a>
               <a href="mailto:edmiltonsouzamsc@gmail.com" className="p-3 rounded-full bg-card border border-border hover:border-accent hover:bg-accent/10 transition-all duration-300 group">
