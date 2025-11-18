@@ -23,7 +23,7 @@ const Skills = () => {
         "Data Warehouse",
         "Azure Synapse",
         "Pipelines ETL/ELT",
-        "Orquestração",
+        "AWS Cloud",
         "Modelagem de Dados",
       ],
       color: "purple",
