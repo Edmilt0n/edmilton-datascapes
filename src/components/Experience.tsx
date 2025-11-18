@@ -3,27 +3,31 @@ import { Briefcase, Building2 } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Cientista de Dados & Engenheiro de Dados",
-      company: "Serasa Experian / Cresceio",
-      description: "Desenvolvimento de soluções completas de dados, incluindo pipelines, dashboards e modelos preditivos. Trabalho com dados de múltiplas fontes, arquitetura em nuvem e produtos analíticos voltados à tomada de decisão.",
+      title: "Data Engineer",
+      company: "Serasa Experian",
+      description:
+        "Desenvolvimento de soluções completas de dados, incluindo pipelines, dashboards e modelos preditivos. Trabalho com dados de múltiplas fontes, arquitetura em nuvem e produtos analíticos voltados à tomada de decisão.",
       period: "Atual",
     },
     {
-      title: "Analista de Dados – Inteligência de Mercado",
+      title: "Analista de Dados – Marketing Analytcs",
       company: "ClearSale",
-      description: "Análise profunda de dados, construção de dashboards estratégicos, estudos de comportamento, segmentações e automações. Atuação voltada à geração de insights acionáveis e melhoria contínua de processos.",
+      description:
+        "Análise profunda de dados, construção de dashboards estratégicos, estudos de comportamento, segmentações e automações. Atuação voltada à geração de insights acionáveis e melhoria contínua de processos.",
       period: "Experiência Anterior",
     },
     {
       title: "Supervisor Administrativo",
       company: "A&J Comércio de Gás",
-      description: "Gestão operacional, financeira e de processos internos, usando dados para orientar decisões e otimizar a rotina da equipe.",
+      description:
+        "Gestão operacional, financeira e de processos internos, usando dados para orientar decisões e otimizar a rotina da equipe.",
       period: "Experiência Anterior",
     },
     {
       title: "Agente de Microcrédito",
       company: "Banco do Nordeste",
-      description: "Avaliação de perfis, análise de crédito, acompanhamento de carteiras e relacionamento com microempreendedores.",
+      description:
+        "Avaliação de perfis, análise de crédito, acompanhamento de carteiras e relacionamento com microempreendedores.",
       period: "Experiência Anterior",
     },
   ];
@@ -43,7 +47,7 @@ const Experience = () => {
 
         <div className="max-w-4xl mx-auto space-y-8">
           {experiences.map((exp, index) => (
-            <div 
+            <div
               key={index}
               className="relative pl-8 pb-8 border-l-2 border-border hover:border-accent transition-colors duration-300 animate-fade-in-up"
               style={{ animationDelay: `${index * 100}ms` }}
@@ -58,12 +62,8 @@ const Experience = () => {
               {/* Content */}
               <div className="p-6 rounded-xl bg-card border border-border hover:border-accent hover:shadow-lg transition-all duration-300 group">
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4">
-                  <h3 className="text-xl font-bold group-hover:text-accent transition-colors">
-                    {exp.title}
-                  </h3>
-                  <span className="text-sm text-muted-foreground mt-2 sm:mt-0">
-                    {exp.period}
-                  </span>
+                  <h3 className="text-xl font-bold group-hover:text-accent transition-colors">{exp.title}</h3>
+                  <span className="text-sm text-muted-foreground mt-2 sm:mt-0">{exp.period}</span>
                 </div>
 
                 <div className="flex items-center gap-2 text-accent font-medium mb-4">
@@ -71,9 +71,7 @@ const Experience = () => {
                   <span>{exp.company}</span>
                 </div>
 
-                <p className="text-muted-foreground leading-relaxed">
-                  {exp.description}
-                </p>
+                <p className="text-muted-foreground leading-relaxed">{exp.description}</p>
               </div>
             </div>
           ))}
@@ -85,7 +83,8 @@ const Experience = () => {
               Projetos Paralelos
             </h3>
             <p className="text-muted-foreground leading-relaxed">
-              Desenvolvo soluções e análises para pequenos negócios, incluindo controle de vendas, estoque, performance e presença digital.
+              Desenvolvo soluções e análises para pequenos negócios, incluindo controle de vendas, estoque, performance
+              e presença digital.
             </p>
           </div>
         </div>
