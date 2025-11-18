@@ -71,9 +71,12 @@ const Hero = () => {
               {/* Glow effect behind image */}
               <div className="absolute inset-0 bg-gradient-to-br from-accent/30 to-primary/30 rounded-3xl blur-3xl"></div>
               
-              {/* Main image container */}
-              <div className="relative rounded-3xl overflow-hidden border-4 border-accent/20 shadow-2xl">
-                <img src={profilePhoto} alt="Edmilton Souza" className="w-full h-auto object-cover" />
+              {/* Decorative frame */}
+              <div className="absolute inset-4 rounded-3xl border-4 border-accent/20 shadow-2xl pointer-events-none z-10"></div>
+              
+              {/* Main image container - no overflow hidden */}
+              <div className="relative rounded-3xl">
+                <img src={profilePhoto} alt="Edmilton Souza" className="w-full h-auto object-cover scale-110" />
               </div>
             </div>
           </div>
