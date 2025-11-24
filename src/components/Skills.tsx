@@ -21,7 +21,7 @@ const Skills = () => {
         "Azure Data Factory",
         "Azure Data Lake",
         "Data Warehouse",
-        "Azure Synapse",
+        "DataBricks",
         "Pipelines ETL/ELT",
         "AWS Cloud",
         "Modelagem de Dados",
@@ -44,7 +44,7 @@ const Skills = () => {
     {
       title: "Soft Skills",
       skills: [
-        "Comunicação",
+        "Comunicação Assertiva",
         "Liderança",
         "Melhoria Contínua",
         "Resolução de Problemas",
