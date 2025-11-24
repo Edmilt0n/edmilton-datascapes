@@ -7,18 +7,18 @@ const Projects = () => {
       icon: Database,
       title: "Migração & Arquitetura de Dados",
       description:
-        "Construção de pipelines completos para migrar dados de sistemas diversos para um Data Warehouse corporativo. Estruturei camadas de ingestão, tratamento e modelagem, garantindo padronização, rastreabilidade e qualidade.",
+        "Construí pipelines completos para migrar dados de sistemas diversos como: Salesforce, Google Analytcs. Para um Data Warehouse corporativo. Estruturei camadas de ingestão, tratamento e modelagem, garantindo padronização, rastreabilidade e qualidade.",
       technologies: ["ADF", "Data Lake", "SQL", "DW", "Databricks"],
       impact:
-        "Base sólida para análises, redução de retrabalho entre times e dados confiáveis para decisões estratégicas.",
+        "Base sólida para análises, redução de retrabalho manual dos times e dados confiáveis para decisões estratégicas.",
       gradient: "from-primary to-purple",
     },
     {
       icon: BarChart3,
       title: "Dashboards Responsivos",
       description:
-        "Criação de dashboards estratégicos para monitoramento de indicadores críticos, com atualização automatizada diária, DAX avançado e modelagem limpa e otimizada.",
-      technologies: ["Power BI", "SQL", "DW", "DAX"],
+        "Criei vários dashboards estratégicos para monitoramento de indicadores críticos, com atualização automatizada diária, DAX avançado e modelagem limpa e otimizada.",
+      technologies: ["Power BI", "SQL", "R", "DAX"],
       impact: "Decisões rápidas e assertivas, alinhamento entre áreas e visão clara dos resultados.",
       gradient: "from-purple to-accent",
     },
@@ -26,7 +26,7 @@ const Projects = () => {
       icon: Brain,
       title: "Modelos de Machine Learning",
       description:
-        "Implementação de modelos de ML usando dados reais para prever comportamentos, detectar padrões, fazer segmentações, identificar riscos e priorizar ações.",
+        "Implementei modelos de ML usando dados reais para prever comportamentos, detectar padrões, fazer segmentações, identificar riscos e priorizar ações.",
       technologies: ["Python", "Scikit-learn", "SQL", "ML Ops"],
       impact: "Aumento da precisão nas decisões, identificação antecipada de oportunidades e redução de riscos.",
       gradient: "from-accent to-primary",

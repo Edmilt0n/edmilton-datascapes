@@ -58,8 +58,7 @@ const Skills = () => {
   return (
     <section className="py-24 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16 animate-fade-in">
-          <span className="text-accent font-semibold text-sm uppercase tracking-wider">Competências</span>
+        <div className="text-center mb-16 animate-fade-in">          
           <h2 className="text-4xl sm:text-5xl font-bold mt-4 mb-6">
             Minhas <span className="text-gradient">Habilidades</span>
           </h2>

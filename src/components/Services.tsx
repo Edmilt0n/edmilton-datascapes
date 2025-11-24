@@ -20,8 +20,7 @@ const Services = () => {
   return <section className="py-24 bg-gradient-to-b from-background to-navy-light/30">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 animate-fade-in">
-          <span className="text-accent font-semibold text-sm uppercase tracking-wider">Serviços</span>
-          <h2 className="text-4xl sm:text-5xl font-bold mt-4 mb-6">
+            <h2 className="text-4xl sm:text-5xl font-bold mt-4 mb-6">
             O Que Eu <span className="text-gradient">Faço?</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">

@@ -15,7 +15,7 @@ const About = () => {
             </p>
 
             <p>
-              Trabalho com dados de qualquer origem sistemas internos, bancos relacionais, serviços em nuvem, APIs, planilhas, eventos, logs ou dados não estruturados. O foco é sempre o mesmo: transformar informação bruta em algo útil, confiável e acionável. <span className="text-accent font-semibold">útil, confiável e acionável</span>.
+              Trabalho com dados de qualquer origem sistemas internos, bancos relacionais, serviços em nuvem, APIs, planilhas, eventos, logs ou dados não estruturados. O foco é sempre o mesmo: transformar informação bruta em algo <span className="text-accent font-semibold">útil, confiável e acionável</span>.
             </p>
 
             <p>
